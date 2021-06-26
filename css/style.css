@@ -50,9 +50,10 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-direction:column;
-    width: 70%;
+    width: 80%;
     /*border: solid;
-    border-color: turquoise;*/
+    border-color: turquoise;
+    border: 1px solid black;*/
 }
 
 .button{
@@ -65,6 +66,16 @@ body{
     border:1px solid transparent;
     background-color:#0095f6;
 }
+
+.border-grey{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    background-color: white;
+    width: 90%;
+    border: 1px solid lightgrey;
+}
 .group{
     display: flex;
     align-items: center;
@@ -73,10 +84,11 @@ body{
     /*border: solid;
     border-color:yellowgreen;*/
     background-color: white;
-    width: 95%;
+    width: 88%;
     padding:1.2rem;
-
 }
+
+
 
 .instragram-logo img {
     display: flex;
