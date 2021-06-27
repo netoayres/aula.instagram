@@ -67,6 +67,10 @@ body{
     background-color:#0095f6;
 }
 
+.button:hover{
+    background-color: #0877c2ee;
+}
+
 .border-grey{
     display: flex;
     align-items: center;
@@ -101,14 +105,18 @@ body{
 }
 
 .instagram-login{
-
 }
 
-.not-account{
+.group:nth-child(3){
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    /**border: 1px solid grey;**/
+}
+.not-account{
+    justify-content:space-between;
+    padding: 2px;
 }
 .instagram-logout{
 
@@ -116,6 +124,11 @@ body{
 
 .link-blue{
     color: blue;
+    font-weight: bold;
+}
+
+.link-blue:hover{
+    color:darkblue;
 }
 
 .download {
