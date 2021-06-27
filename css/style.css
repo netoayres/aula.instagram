@@ -123,12 +123,12 @@ body{
 }
 
 .link-blue{
-    color: blue;
+    color:#0095f6;
     font-weight: bold;
 }
 
 .link-blue:hover{
-    color:darkblue;
+    color:#0372bd;
 }
 
 .download {
