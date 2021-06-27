@@ -138,6 +138,9 @@ body{
     flex-direction:row; /*coloca as imagens dos apps um do lado do outro*/
    /* border-color:black;
     border: solid;*/
+    width: 90%;
+    height: auto;
+    padding-top: 5px;
 }
 
 .download img {
